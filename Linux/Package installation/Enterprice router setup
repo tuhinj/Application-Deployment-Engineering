@@ -1,21 +1,8 @@
-Enterprice Router setUp:::
-
-step: 1
-	* Downlode Router iso file.
-	* Make a VM machine in VM and install Router os.
-	* Need a windows machine in vm and in windows install winbox
-
-step: 2
-	* Router os set up network (add new one adepter and 1st one make bridge network and 2nd adepter select internal network)
-	* Windows make adepter internal network.
-
-step: 3
-	* Goto winbox connect with mac address 
-		1. goto interfaces (chenge ethernet name or comment both "lan", "wan" by connection)
-		2. goto ip> DHCP client> select plus button make client
-		3. goto ip> address> select plus button> genaret ip address Ex."192.168.10.1/24" for lan, interface lan.
-		4. goto ip> DHCP Server> DHCP setup> lan
-		5. goto ip> firewall> nat> general 'make out. interface wan'> Action 'asquerade'
-							
-							::All done::
-	
+1. Router add LAN and WAN 
+2. goto winbox login by mac address
+3. click Interface identify by port by comment or rename.
+4. next Click IP > DHCP client > add new client
+5. next click IP > address > select WAN IP > select plus > add new IP for LAN
+6. next click IP > DHCP server > DHCP setup > setup for LAN
+7. next click IP > firewall > NAT > select plus > out. interface WAN > select 'action' > masqurad.
+8. all done (now ethernet Disable and Enable)
