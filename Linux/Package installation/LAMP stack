@@ -1,0 +1,73 @@
+::Initial Server SetUp::
+- sudo apt updat && sudo apt upgrade -y
+- sudo su # Root user
+- adduser "usern, fullname, " # add user
+- usermod -aG sudo "usern" # user add in sudo group
+- apt instlall openssh-server # install ssh server
+- ssh "usern"@"user IP" # swap new user
+
+-------------------------------------------------------------------------
+::LAMP Stack::
+L : Linux (any Linux Distribution)
+A : Apache2
+M : MySQL
+P : PHP
+
+
+1) Apache2 Install:
+- sudo apt update && sudo apt upgrade -y
+- sudo apt install apache2
+- sudo ufw app list #active application
+- sudo ufw allow in "Apache" #Apache allow in firewall rule
+- sudo ufw status
+** (test apache in browser by "localhost.com or IP address)
+
+2) MySQL Install:
+- sudo apt install mysql-server
+- sudo mysql_secure_installation
+- sudo mysql
+- *(CREATE USER'usern'@'localhost' IDENTIFIED WITH mysql_native_password BY 'passw';
+GRANT ALL PRIVILEGES ON *.* TO 'usern'@'localhost';)
+- mysql> exit
+
+3) PHP Install:
+- sudo apt install php libapache2-mod-php php-mysql
+- php -v
+
+4) Creating a Virtual Host for your Website:
+- sudo mkdir /var/www/your_domain
+- sudo chown -R $USER:$USER /var/www/your_domain
+- sudo nano /etc/apache2/sites-available/your_domain.conf
+** pest >>
+
+<VirtualHost *:80>
+    ServerName your_domain
+    ServerAlias www.your_domain 
+    ServerAdmin webmaster@localhost
+    DocumentRoot /var/www/your_domain
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+
+- sudo a2ensite your_domain
+- sudo a2dissite 000-default
+- sudo apache2ctl configtest
+- sudo systemctl reload apache2
+- nano /var/www/your_domain/index.html
+**pest >>
+
+<html>
+  <head>
+    <title>your_domain website</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+
+    <p>This is the landing page of <strong>your_domain</strong>.</p>
+  </body>
+</html>
+
+- http://server_domain_or_IP
+
+
+

@@ -4,7 +4,7 @@ b) Gateway IP assining (Router)
 c) DNS IP assigning and NAT rule creation (DNS)
 
 ....................................................................
-1. Microtik Dasic Configration (LAN DHCP, WAN [DHCP Client/ Static IP/ PPPOE Client]).
+1. Microtik Basic Configration (LAN DHCP, WAN [DHCP Client/ Static IP/ PPPOE Client]).
 
 	::LAN DHCP::
 	>>> ip > address > plus button > creat static ip > select LAN interface > ok
