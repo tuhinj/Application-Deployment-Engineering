@@ -1,7 +1,7 @@
 ::Initial Server SetUp::
 - sudo apt updat && sudo apt upgrade -y
 - sudo su # Root user
-- adduser "usern, fullname, " # add user
+- adduser "usern, fullname, pssword, phonenumber" # add user
 - usermod -aG sudo "usern" # user add in sudo group
 - apt instlall openssh-server # install ssh server
 - ssh "usern"@"user IP" # swap new user
@@ -68,6 +68,62 @@ GRANT ALL PRIVILEGES ON *.* TO 'usern'@'localhost';)
 </html>
 
 - http://server_domain_or_IP
+- sudo nano /etc/apache2/mods-enabled/dir.conf
+**pest >>
 
+<IfModule mod_dir.c>
+        DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
+</IfModule>
 
+- sudo systemctl reload apache2
+
+5) Testing PHP Processing on your Web Server:
+- nano /var/www/your_domain/info.php
+** pest >>
+
+<?php
+phpinfo();
+
+- http://server_domain_or_IP/info.php
+- sudo rm /var/www/your_domain/info.php
+
+7) Testing Database Connection from PHP (Optional):
+- sudo mysql
+- mysql> CREATE DATABASE example_database;
+- mysql> CREATE USER 'example_user'@'%' IDENTIFIED BY 'password';
+- mysql> GRANT ALL ON example_database.* TO 'example_user'@'%';
+- mysql> exit
+- mysql -u example_user -p
+- mysql> SHOW DATABASES;
+- mysql> CREATE TABLE example_database.todo_list (
+	item_id INT AUTO_INCREMENT,
+	content VARCHAR(255),
+	PRIMARY KEY(item_id)
+);
+- mysql> INSERT INTO example_database.todo_list (content) VALUES ("My first important item");
+- mysql> SELECT * FROM example_database.todo_list;
+- mysql> exit
+- mysql> nano /var/www/your_domain/todo_list.php
+** pest >> 
+
+<?php
+$user = "example_user";
+$password = "password";
+$database = "example_database";
+$table = "todo_list";
+
+try {
+  $db = new PDO("mysql:host=localhost;dbname=$database", $user, $password);
+  echo "<h2>TODO</h2><ol>"; 
+  foreach($db->query("SELECT content FROM $table") as $row) {
+    echo "<li>" . $row['content'] . "</li>";
+  }
+  echo "</ol>";
+} catch (PDOException $e) {
+    print "Error!: " . $e->getMessage() . "<br/>";
+    die();
+}
+
+- http://your_domain_or_IP/todo_list.php
+- 
 
