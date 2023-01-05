@@ -1,5 +1,7 @@
-LINUX ADVANCED DIRECTORY/FILE PERMISSION (ACL)
+LINUX ADVANCED DIRECTORY/FILE PERMISSION (ACL):
+==============================================
 Default file/dir permission:
+---------------------------
 	r = read (4)
 	w = write (2)
 	x = execute (1)
