@@ -1,5 +1,4 @@
 LINUX ADVANCED DIRECTORY/FILE PERMISSION (ACL)
-..............................................
 Default file/dir permission:
 	r = read (4)
 	w = write (2)
@@ -25,7 +24,7 @@ User & Group:
 
 	Show User: # cat /etc/passwd
 	Show Group: # cat /etc/group
-::ACL:: Access Control List:
+ACL: Access Control List:
 ============================
 -> ACLs allow us to apply a more specific set of permissions to a file or directory without (necessarily) changing the base ownership and permissions.
 
@@ -47,7 +46,6 @@ ACL Permission Apply:
 ---------------------
 
 User Permission:
-................
 root@server:/home/tuhin/Test# setfacl -m u:user1:rw-,u:user2:rwx test.txt 
 root@server:/home/tuhin/Test# getfacl test.txt 
 # file: test.txt
@@ -61,7 +59,6 @@ mask::rwx
 other::r--
 
 Group Permission:
-.................
 root@server:/home/tuhin/Test# setfacl -m g:testgrp1:rw- test.txt 
 root@server:/home/tuhin/Test# getfacl test.txt 
 # file: test.txt
@@ -76,7 +73,6 @@ mask::rwx
 other::r--
 
 Other Permission:
-.................
 root@server:/home/tuhin/Test# setfacl -m o::rw- test.txt 
 root@server:/home/tuhin/Test# getfacl test.txt 
 # file: test.txt
@@ -94,7 +90,6 @@ ACL Permission Remove:
 ----------------------
 
 User Permission:
-................
 root@server:/home/tuhin/Test# setfacl -x u:user1:,u:user2: test.txt 
 root@server:/home/tuhin/Test# getfacl test.txt 
 # file: test.txt
@@ -107,7 +102,6 @@ mask::rw-
 other::rw-
 
 Group Permission:
-.................
 root@server:/home/tuhin/Test# setfacl -x g:testgrp1: test.txt 
 root@server:/home/tuhin/Test# getfacl test.txt 
 # file: test.txt
@@ -119,7 +113,6 @@ mask::r--
 other::rw-
 
 Other Permission:
-.................
 root@server:/home/tuhin/Test# setfacl -m o::--- test.txt 
 root@server:/home/tuhin/Test# getfacl test.txt 
 # file: test.txt
