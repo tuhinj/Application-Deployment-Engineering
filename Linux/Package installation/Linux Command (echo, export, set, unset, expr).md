@@ -23,7 +23,7 @@ testuser@tuhinJoy-vivoBook:~$ echo Hello World
 Hello World
 
 testuser@tuhinJoy-vivoBook:~$ echo -n Hello World
-Hello Worldtestuser@tuhinJoy-vivoBook:~$
+Hello World testuser@tuhinJoy-vivoBook:~$
 
 testuser@tuhinJoy-vivoBook:~$ echo -e 'hello \bworld'
 helloworld
