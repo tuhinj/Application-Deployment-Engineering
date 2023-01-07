@@ -29,23 +29,23 @@ testuser@tuhinJoy-vivoBook:~$ echo -e 'hello \bworld'
 > helloworld
 
 testuser@tuhinJoy-vivoBook:~$ echo -e 'hello \nworld'
-hello 
-world
+> hello 
+> world
 
 testuser@tuhinJoy-vivoBook:~$ echo -e 'hello \tworld \vHow are you?'
-hello 	world 
-              How are you?
+> hello 	world 
+>              How are you?
 
 testuser@tuhinJoy-vivoBook:~$ a=12
 testuser@tuhinJoy-vivoBook:~$ echo $a
-12
+> 12
 
 testuser@tuhinJoy-vivoBook:~$ b=10
 testuser@tuhinJoy-vivoBook:~$ echo $((a+b))
-22
+> 22
 
 testuser@tuhinJoy-vivoBook:~$ echo $a+$b=$((a+b))
-12+10=22
+> 12+10=22
 
 SET:
 -> The SET command is a built-in function in bash and few other cells which you can use to define the values of system variables. Set is not required to set a variable, there are various ways to do it.
@@ -61,30 +61,35 @@ export:
 
 testuser@tuhinJoy-vivoBook:~$ x=4
 testuser@tuhinJoy-vivoBook:~$ echo $x
-4
+> 4
 testuser@tuhinJoy-vivoBook:~$ bash
 testuser@tuhinJoy-vivoBook:~$ echo $x
-
+>
 testuser@tuhinJoy-vivoBook:~$ x=7
 testuser@tuhinJoy-vivoBook:~$ echo $x
-7
+> 7
 testuser@tuhinJoy-vivoBook:~$ exit
-exit
+> exit
 testuser@tuhinJoy-vivoBook:~$ echo $x
-4
+> 4
 testuser@tuhinJoy-vivoBook:~$ export x [set the enviroment variables]
 testuser@tuhinJoy-vivoBook:~$ echo $x
-4
+> 4
 
 UNSET:
 -> The UNSET command is a built-in function in bash which you can use to remove a variable which is set.
 
 testuser@tuhinJoy-vivoBook:~$ echo $x
-4
+> 4
 testuser@tuhinJoy-vivoBook:~$ export x [set the enviroment variables]
 testuser@tuhinJoy-vivoBook:~$ echo $x
-4
+> 4
+testuser@tuhinJoy-vivoBook:~$ bash
+testuser@tuhinJoy-vivoBook:~$ echo $x
+>4
 testuser@tuhinJoy-vivoBook:~$ unset x [unset the enviroment variables]
 testuser@tuhinJoy-vivoBook:~$ echo $x
-4
-
+> 
+testuser@tuhinJoy-vivoBook:~$ bash
+testuser@tuhinJoy-vivoBook:~$ echo $x
+>
