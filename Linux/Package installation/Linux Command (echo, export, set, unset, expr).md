@@ -1,4 +1,4 @@
-#Enviroment Variables(echo, export, set, unset, expr):
+ENVIROMENT VARIABLES(echo, export, set, unset, expr):
 
 ECHO:
 -> echo - display a line of text
