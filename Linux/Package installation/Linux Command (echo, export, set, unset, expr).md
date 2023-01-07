@@ -1,8 +1,8 @@
 ENVIROMENT VARIABLES(echo, export, set, unset, expr):
 =====================================================
 
-ECHO:
------
+=> ECHO:
+--------
 -> echo - display a line of text
 -> Echo the STRING(s) to standard output.
        -n     do not output the trailing newline
@@ -51,8 +51,8 @@ ECHO:
 # echo $a+$b=$((a+b))
 > 12+10=22
 
-SET:
-----
+=> SET:
+-------
 -> The SET command is a built-in function in bash and few other cells which you can use to define the values of system variables. Set is not required to set a variable, there are various ways to do it.
 
 -> Options of set command:
@@ -61,8 +61,8 @@ SET:
 	-m (Job control will be enabled)
 	-o (Option-name: Allexport same as -a, Braceexpand same as -B, Errexit same as -e, Errtrace same as -E, Functrace same as -T)
 
-export:
--------
+-> export:
+----------
 -> The EXPORT command is used to create Enviroment Variables.
 
 # x=4
@@ -85,8 +85,8 @@ export:
 # echo $x
 >4
 
-UNSET:
-------
+=> UNSET:
+---------
 -> The UNSET command is a built-in function in bash which you can use to remove a variable which is set.
 
 # echo $x
