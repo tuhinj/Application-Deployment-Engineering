@@ -78,7 +78,6 @@ testuser@tuhinJoy-vivoBook:~$ echo $x
 
 UNSET:
 -> The UNSET command is a built-in function in bash which you can use to remove a variable which is set.
-
 testuser@tuhinJoy-vivoBook:~$ echo $x
 > 4
 testuser@tuhinJoy-vivoBook:~$ export x [set the enviroment variables]
