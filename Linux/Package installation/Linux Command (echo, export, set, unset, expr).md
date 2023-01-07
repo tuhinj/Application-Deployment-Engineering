@@ -20,13 +20,13 @@ ECHO:
 	\xHH   byte with hexadecimal value HH (1 to 2 digits)
 
 testuser@tuhinJoy-vivoBook:~$ echo Hello World
-Hello World
+> Hello World
 
-testuser@tuhinJoy-vivoBook:~$ echo -n Hello World
-Hello World testuser@tuhinJoy-vivoBook:~$
+testuser@tuhinJoy-vivoBook:~$  echo -n Hello World
+> Hello Worldtestuser@tuhinJoy-vivoBook:~$
 
 testuser@tuhinJoy-vivoBook:~$ echo -e 'hello \bworld'
-helloworld
+> helloworld
 
 testuser@tuhinJoy-vivoBook:~$ echo -e 'hello \nworld'
 hello 
