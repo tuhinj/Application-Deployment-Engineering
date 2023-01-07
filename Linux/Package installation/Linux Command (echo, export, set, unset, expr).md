@@ -1,3 +1,5 @@
+Enviroment Variables(echo, export, set, unset, expr):
+
 ECHO:
 -> echo - display a line of text
 -> Echo the STRING(s) to standard output.
