@@ -81,6 +81,9 @@ export:
 # export x [set the enviroment variables]
 # echo $x
 > 4
+# bash
+# echo $x
+>4
 
 UNSET:
 ------
