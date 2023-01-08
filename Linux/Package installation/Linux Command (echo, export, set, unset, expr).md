@@ -103,3 +103,69 @@ ENVIROMENT VARIABLES(echo, export, set, unset, expr):
 # bash
 # echo $x
 >
+
+=> EXPR:
+-------
+- evaluate expressions.
+-> The command expr computes a giver expression and displays the output
+       ARG1 | ARG2 -> ARG1 if it is neither null nor 0, otherwise ARG2
+
+       ARG1 & ARG2 -> ARG1 if neither argument is null or 0, otherwise 0
+
+       ARG1 < ARG2 -> ARG1 is less than ARG2
+
+       ARG1 <= ARG2 -> ARG1 is less than or equal to ARG2
+
+       ARG1 = ARG2 -> ARG1 is equal to ARG2
+
+       ARG1 != ARG2 -> ARG1 is unequal to ARG2
+
+       ARG1 >= ARG2 -> ARG1 is greater than or equal to ARG2
+
+       ARG1 > ARG2 -> ARG1 is greater than ARG2
+
+       ARG1 + ARG2 -> arithmetic sum of ARG1 and ARG2
+
+       ARG1 - ARG2 -> arithmetic difference of ARG1 and ARG2
+
+       ARG1 * ARG2 -> arithmetic product of ARG1 and ARG2
+
+       ARG1 / ARG2 -> arithmetic quotient of ARG1 divided by ARG2
+
+       ARG1 % ARG2 -> arithmetic remainder of ARG1 divided by ARG2
+
+#  expr 1 + 3
+> 4
+#  expr 1 - 4
+> -3
+#  expr 9 * 3
+> 27
+#  expr 8 / 3
+> 6
+#  expr 2 = 3
+> 0
+#  expr 3 % 2
+> 1
+#  x=hello
+#  echo $x
+> hello
+#  expr length $x
+> 5
+
+=> HEADER FILE - SHEBANG (#!):
+------------------------------
+-> #!-This represents which interpreter a script should be interpreted with.
+-> #!/bin/bash-This is a header command which represents it is a bash/shell script.
+-> #!/bin/bash is this is not provided it often considers #!/bin/sh which would be same in most cases. When you put #!/bin/bash in your script, even if you run the script in a different shell, the kernel will know which shell to interpret it with.
+
+# touch s.txt
+# ls
+> s.txt
+#  nano s.txt 
+>  "#!/bin/bash
+echo 'Hello World!'"
+#  sh s.txt
+> Hello World!
+#  bash s.txt 
+> Hello World!
+
