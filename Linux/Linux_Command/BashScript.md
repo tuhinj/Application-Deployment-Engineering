@@ -8,8 +8,8 @@ The SheBang (#!):
 -> '#!' = It's called a shebang because the # symbol is called a hash, and the ! symbol is called a bang.
 - it use in shell script text file.
 
-Ex:
----
+Example:
+--------
 > $ nano hello.sh
 - open text exitor and paste the below lines
 * #!/bin/bash
@@ -21,7 +21,7 @@ Ex:
 
 > $ ls -l
 
- -rwxr-xr-x. 1 root root 94 Jan 17 13:58 hello.sh
++ -rwxr-xr-x. 1 root root 94 Jan 17 13:58 hello.sh
 
 >  ./hello.sh
 
@@ -29,12 +29,37 @@ Ex:
 
 > $ sh hello.sh
 
-- or 
+ or 
 
 > $ bash hello.sh
 
 + Hello World!
 
 + This is my first script...!
+
+=> Secound Script:
+------------------
+> $ nano script1.sh
+
+> $ cat script1.sh 
+
+- #!/bin/bash
+- #secound script
+- pwd
+- ls -l
+
+> $ chmod 755 script1.sh
+ 
++ -rwxr-xr-x. 1 root root 40 Jan 17 14:59 script1.sh
+
+> $ ./script1.sh 
+
++ /home/whoami/Documents/test
++ total 8
++ -rwxr-xr-x. 1 root root 94 Jan 17 13:58 hello.sh
++ -rwxr-xr-x. 1 root root 40 Jan 17 14:59 script1.sh
+
+
+
 
 
