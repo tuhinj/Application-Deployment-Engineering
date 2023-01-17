@@ -17,6 +17,7 @@ Ex:
 * echo "Hello World!"
 * echo "This is my first script...!"
 > $ chmod 755 hello.sh
+- .
 >  ./hello.sh
 - or
 > $ shell hello.sh
@@ -25,8 +26,4 @@ Ex:
 + Hello World!
 + This is my first script...!
 
-/*hello world /*
-/*hello world */
-*/hello world /*
-*/hello world */
 
