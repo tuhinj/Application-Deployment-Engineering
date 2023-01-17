@@ -59,6 +59,8 @@ Example:
 + -rwxr-xr-x. 1 root root 94 Jan 17 13:58 hello.sh
 + -rwxr-xr-x. 1 root root 40 Jan 17 14:59 script1.sh
 
+=> Variable Assigning:
+----------------------
 
 
 
