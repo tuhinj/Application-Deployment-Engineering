@@ -1,8 +1,8 @@
-Bash/Shell Scripts:
+BASH/SHELL SCRIPT:
 ===================
 -> A list of commands in a computer program called a shell script are executed by the command line interpreter known as the Unix/LINUX shell.
 
-The SheBang (#!):
+=> The SheBang (#!):
 ----------------
 -> It's used to instruct the kernel on which interpreter to utilize when executing the commands in the file.
 -> '#!' = It's called a shebang because the # symbol is called a hash, and the ! symbol is called a bang.
@@ -58,6 +58,8 @@ Example:
 + total 8
 + -rwxr-xr-x. 1 root root 94 Jan 17 13:58 hello.sh
 + -rwxr-xr-x. 1 root root 40 Jan 17 14:59 script1.sh
+
+
 
 
 
