@@ -28,4 +28,37 @@ or
 Hello World!
 This is my first script...!
 
+` hello world
+! hello world
+@ hello world
+# hello world
+$ hello world
+% hello world
+^ hello world
+& hello world
+* hello world
+( hello world
+) hello world
+- hello world
+_ hello world
+= hello world
++ hello world
+[ hello world
+] hello world
+{ hello world
+} hello world
+\ hello world
+/ hello world
+| hello world
+; hello world
+: hello world
+' hello world
+" hello world
+? hello world
+. hello world
+> hello world
+< hello world
+, hello world
+
+
 
