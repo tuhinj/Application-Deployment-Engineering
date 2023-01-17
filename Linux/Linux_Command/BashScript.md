@@ -17,7 +17,7 @@ Ex:
 echo "Hello World!"
 echo "This is my first script...!"
 > $ chmod 755 hello.sh
-> $ ./hello.sh
+\n > $ ./hello.sh
 or
 > $ shell hello.sh
 or 
