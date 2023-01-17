@@ -20,7 +20,6 @@ Example:
 > $ chmod 755 hello.sh
 
 > $ ls -l
-
 + -rwxr-xr-x. 1 root root 94 Jan 17 13:58 hello.sh
 
 >  ./hello.sh
@@ -32,9 +31,7 @@ Example:
  or 
 
 > $ bash hello.sh
-
 + Hello World!
-
 + This is my first script...!
 
 => Secound Script:
@@ -42,18 +39,15 @@ Example:
 > $ nano script1.sh
 
 > $ cat script1.sh 
-
 - #!/bin/bash
 - #secound script
 - pwd
 - ls -l
 
 > $ chmod 755 script1.sh
- 
 + -rwxr-xr-x. 1 root root 40 Jan 17 14:59 script1.sh
 
 > $ ./script1.sh 
-
 + /home/whoami/Documents/test
 + total 8
 + -rwxr-xr-x. 1 root root 94 Jan 17 13:58 hello.sh
@@ -64,6 +58,19 @@ Example:
 > $ nano script2.sh
 
 > $ cat script2.sh
++ #!/bin/bash
++ #variable assigning...
++ name="Tuhin Joy"
++ age=23
++ echo $name $age
++ echo "Hello" $name
++ echo "Hello I'm $name and my age is $age"
+
+> $ sh script2.sh
++ Tuhin Joy 23
++ Hello Tuhin Joy
++ Hello I'm Tuhin Joy and my age is 23
+
 
 
 
