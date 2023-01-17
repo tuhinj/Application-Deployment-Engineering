@@ -18,6 +18,7 @@ Working with Directories:
 -> rmdir - remove empty directories
 	# rmdir folder
 	# rmdir folder/folder2
+
 Working With File:
 ==================
 -> file — determine file type
@@ -28,6 +29,8 @@ Working With File:
 	# rm file.txt
 	# rm -i file1.txt file2.txt
 	# rm -rf Folder/
+	# rm *.txt
+	# rm -r Folder/
 -> cp - copy files and directories
 	# cp file.txt
 	# cp Folder/ Foldercopy/
@@ -49,6 +52,10 @@ Working With File:
 	# echo this is the file one > f1.txt 
 -> more - file perusal filter for crt viewing
 	# more file.txt
+-> grep,  egrep,  fgrep,  rgrep  -  print  lines  that  match
+       patterns
+	#grep p pip.txt
+
 System Informaon:
 =================
 -> uptime - Tell how long the system has been running.
@@ -57,6 +64,15 @@ System Informaon:
 	# free
 -> ps - report a snapshot of the current processes.
 	# ps -A
+	# ps aux
+	# ps -f
+	# ps -u user
+-> kill - send a signal to a process
+	# kill -l
+	# kill -9 <code>
+-> nice  -  run  a program with modified scheduling
+       priority
+	# nice -19 <code>
 -> df - report file system disk space usage
 	# df
 	# df -h
@@ -66,12 +82,7 @@ System Informaon:
 	# lsblk
 -> top - display Linux processes
 	# top
-Networking:
-===========
--> ifconfig - configure a network interface
-	# ifconfig
--> apt - command-line interface
-	# apt update && apt uprade
+
 Text Editores:
 ==============
 -> nano - Nano's ANOther editor, inspired by Pico
@@ -79,11 +90,12 @@ Text Editores:
 -> vim - Vi IMproved, a programmer's text editor
 	# vi/vim file.txt (type - i, save+exit = wq, quite = q!)
 
-
-
-
-
-
+Networking:
+===========
+-> ifconfig - configure a network interface
+	# ifconfig
+-> apt - command-line interface
+	# apt update && apt uprade
 
 
 
