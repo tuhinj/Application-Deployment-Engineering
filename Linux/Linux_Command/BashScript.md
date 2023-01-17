@@ -66,10 +66,33 @@ Example:
 + echo "Hello" $name
 + echo "Hello I'm $name and my age is $age"
 
+> $ chmod 755 script2.sh
++ -rwxr-xr-x. 1 root root 140 Jan 17 16:33 script2.sh
+
 > $ sh script2.sh
 + Tuhin Joy 23
 + Hello Tuhin Joy
 + Hello I'm Tuhin Joy and my age is 23
+
+Example:
+--------
+> $ nano script3.sh
+
+> $ cat script3.sh
++ #!/bin/bash
++ list=`ls`
++ dt=`date`
++ echo "Today date and time: " $dt
++ echo -e "Show the list of file and directory: " $list
+
+> $ chmod 755 script3.sh
++ -rwxr-xr-x. 1 root root 119 Jan 17 16:51 script3.sh
+
+> $ bash script3.sh
++ Today date and time:  Tue 17 Jan 16:53:15 EST 2023
++ Show the list of file and directory:  hello.sh script1.sh script2.sh script3.sh
+
+
 
 
 
