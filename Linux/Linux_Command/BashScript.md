@@ -61,7 +61,9 @@ Example:
 
 => Variable Assigning:
 ----------------------
-> 
+> $ nano script2.sh
+
+> $ cat script2.sh
 
 
 
