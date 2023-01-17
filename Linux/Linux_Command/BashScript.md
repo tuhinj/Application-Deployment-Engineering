@@ -17,10 +17,12 @@ Ex:
 * echo "Hello World!"
 * echo "This is my first script...!"
 > $ chmod 755 hello.sh
+
+> $ ls -l
 + -rwxr-xr-x. 1 root root 94 Jan 17 13:58 hello.sh
 >  ./hello.sh
 - or
-> $ shell hello.sh
+> $ sh hello.sh
 - or 
 > $ bash hello.sh
 + Hello World!
