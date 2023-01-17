@@ -10,55 +10,29 @@ The SheBang (#!):
 
 Ex:
 ---
-# nano hello.sh
-- open text exitor and paste the blowing lines
-'
+> # nano hello.sh
+- open text exitor and paste the below lines
 #!/bin/bash
-
 #This is my first script
 echo "Hello World!"
 echo "This is my first script...!"
-'
-# chmod 755 hello.sh
-# ./hello.sh
+> # chmod 755 hello.sh
+> # ./hello.sh
 or
-# shell hello.sh
+> # shell hello.sh
 or 
-# bash hello.sh
+> # bash hello.sh
 Hello World!
 This is my first script...!
 
-` hello world
-! hello world
-@ hello world
+> > hello world
+>> >hello world
 # hello world
-$ hello world
-% hello world
-^ hello world
-& hello world
 * hello world
-) hello world
-( hello world
 - hello world
-_ hello world
-= hello world
 + hello world
-] hello world
-[ hello world
-} hello world
-{ hello world
-\ hello world
-/ hello world
-| hello world
-; hello world
-: hello world
-' hello world
-" hello world
-? hello world
-. hello world
-> hello world
-< hello world
-, hello world
 
+> hello world
+>> hello world
 
 
