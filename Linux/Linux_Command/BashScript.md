@@ -7,7 +7,8 @@ BASH/SHELL SCRIPT:
 -> It's used to instruct the kernel on which interpreter to utilize when executing the commands in the file.
 -> '#!' = It's called a shebang because the # symbol is called a hash, and the ! symbol is called a bang.
 - it use in shell script text file.
-- we can exicute script by (bash <scriptName>, sh <scriptName>, ./<scripName>)
+- we can exicute script by (bash 'scriptName', sh 'scriptName', ./'scripName')
+
 Example 1:
 ---------
 > $ nano hello.sh
