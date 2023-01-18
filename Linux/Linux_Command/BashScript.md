@@ -1,3 +1,4 @@
+<script>
 BASH/SHELL SCRIPT:
 ===================
 -> A list of commands in a computer program called a shell script are executed by the command line interpreter known as the Unix/LINUX shell.
@@ -7,9 +8,9 @@ BASH/SHELL SCRIPT:
 -> It's used to instruct the kernel on which interpreter to utilize when executing the commands in the file.
 -> '#!' = It's called a shebang because the # symbol is called a hash, and the ! symbol is called a bang.
 - it use in shell script text file.
-
-Example:
---------
+- we can exicute script by (bash <script name>, sh <script name>, ./<script name>)
+Example 1:
+---------
 > $ nano hello.sh
 - open text exitor and paste the below lines
 * #!/bin/bash
@@ -74,8 +75,8 @@ Example:
 + Hello Tuhin Joy
 + Hello I'm Tuhin Joy and my age is 23
 
-Example:
---------
+Example 2:
+----------
 > $ nano script3.sh
 
 > $ cat script3.sh
@@ -92,9 +93,22 @@ Example:
 + Today date and time:  Tue 17 Jan 16:53:15 EST 2023
 + Show the list of file and directory:  hello.sh script1.sh script2.sh script3.sh
 
+Example 3:
+----------
+> $ nano script4.sh
 
+> $ cat script4.sh 
++ #!/bin/bash
++ echo "Math oprations"
++ let a=12*2+6
++ let b=6/3*15
++ echo A=$a
++ echo B=$b
 
+> $ chmod 755 script4.sh 
++ -rwxr-xr-x. 1 root root  83 Jan 18 00:11 script4.sh
 
+> bash
 
 
 
