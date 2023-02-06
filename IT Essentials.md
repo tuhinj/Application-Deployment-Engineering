@@ -245,6 +245,8 @@ LoopBack:
 
 `tracert googel.com` (windows)
 
+`tracert 8.8.8.8` (windows)
+
 `traceroute google.com`
 
 `traceroute 8.8.8.8`
