@@ -277,6 +277,8 @@ LoopBack:
 
 `ifconfig`
 
+`ipconfig all`
+
 `ifconfig -s`
 
 `ifconfig -a`
