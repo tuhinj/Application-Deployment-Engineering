@@ -277,7 +277,7 @@ LoopBack:
 
 `ifconfig`
 
-`ipconfig all`
+`ipconfig all` (windows)
 
 `ifconfig -s`
 
