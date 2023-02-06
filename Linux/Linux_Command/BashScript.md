@@ -394,14 +394,19 @@ Script Input:
 > $ cat input2.sh 
  
 + #!/bin/bash
-
 + #echo $1 $2 $3 #Show the input three text...
-
 + args=("$@")
-
 + #echo ${args[0]} ${args[1]} ${args[2]} #Show the input three text...
-
 + echo $@ #Show the input line of text...
-
 + echo $# #Show the input length...
+
+> ./input2.sh Maynuddin Tuhin Joy
++ Maynuddin Tuhin Joy
++ 3
+
+Script Output:
+--------------
+> $ 
+
+
 
