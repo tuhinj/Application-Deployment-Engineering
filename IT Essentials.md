@@ -269,9 +269,9 @@ LoopBack:
 
 > netstat/nestat  - Print network connections, routing tables, interface statis‐tics, masquerade connections, and multicast memberships
 
-`nestat` (windows)
+`netstat -n` (windows)
 
-`netstat`
+`netstat -ntlp` (linux)
 
 > ifconfig/ipconfig - configure a network interface
 
@@ -285,7 +285,27 @@ LoopBack:
 
 `ifconfig -a`
 
+#Port:
+------
+Two types of ports:
+-------------------
 
+> TCP (transfar control protocal)
 
++ TCP is a connection-oriented protocol.
 
++ TCP is comparatively slower than UDP.
 
++ Lost data packets is only possible with TCP.
+
++ TCP uses handshake protocols.
+
+> UDP (user datagram protocal)
+
++ UDP is a connectionless protocol.
+
++ UDP is faster, simpler, and efficient.
+
++ Lost data packets is not possible with UDP.
+
++ UDP uses no handshake protocols.
