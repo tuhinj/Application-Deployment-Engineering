@@ -109,41 +109,41 @@ Windows OS Installation Planning:
 ---------------------------------
 * MBR Partition:
 ---------------
-> System Reserved - Reserved - 500MB
+>> System Reserved - Reserved - 500MB
 
-> C - NTFS/FAT32 - 30GB minimum
+>> C - NTFS/FAT32 - 30GB minimum
 
 * GPT Partition:
 ----------------
-> Recovery Partition - Recovery - 450MB
+>> Recovery Partition - Recovery - 450MB
 
-> EFI - FAT - 100MB
+>> EFI - FAT - 100MB
 
-> Reserved Partition - NTFS - 350MB
+>> Reserved Partition - NTFS - 350MB
 
-> C - NTFS/FAT32 - 30GB minimum
+>> C - NTFS/FAT32 - 30GB minimum
 
 Linux OS Installation Planning:
 -------------------------------
 * MBR Partition:
 ---------------
-> /boot - XFS - 500MB
+>> /boot - XFS - 500MB
 
-> / - XFS - 20GB minimum
+>> / - XFS - 20GB minimum
 
-> Swap - Swap - 2GB
+>> Swap - Swap - 2GB
 
-> /backup - XFS - Required
+>> /backup - XFS - Required
 
 * GPT Partition:
 ----------------
-> /boot/efi - FAT - 450MB
+>> /boot/efi - FAT - 450MB
 
-> / - XFS - 20GB
+>> / - XFS - 20GB
 
-> Swap - Swap - 2GB
+>> Swap - Swap - 2GB
 
-> /backup - XFS - Required
+>> /backup - XFS - Required
 
 #IP Addresses:
 --------------
@@ -152,11 +152,11 @@ Linux OS Installation Planning:
 
 IPv4:
 -----
-> 32 Bits (0,1) or 4 Bytes
+>> 32 Bits (0,1) or 4 Bytes
 
-> 4 Parts
+>> 4 Parts
 
-> Each Part called Octet
+>> Each Part called Octet
 
 > Each Octet Seperated by Dot (.)
 
