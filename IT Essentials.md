@@ -158,13 +158,13 @@ IPv4:
 
 >> Each Part called Octet
 
-> Each Octet Seperated by Dot (.)
+>> Each Octet Seperated by Dot (.)
 
-> Decimal Format (0-9)
+>> Decimal Format (0-9)
 
-> Example: 192.168.150.100 
+>> Example: 192.168.150.100 
 
-> Each Octet 8bits (2^8)/256/(0-255). Ex:(0-255).(0-255).(0-255).(0-255)
+>> Each Octet 8bits (2^8)/256/(0-255). Ex:(0-255).(0-255).(0-255).(0-255)
 
 > IPv4 Classes (5):
 -------------------
@@ -213,11 +213,11 @@ IP Address Configuration:
 -------------------------
 > Static IP (Manual)
 
-> `Control Panel\Network and Internet\Network and Sharing Center\Change adapter settings\select Ethernet\enter the ethernet properties\select 'Internet Protocol Version 4'`
+>> `Control Panel\Network and Internet\Network and Sharing Center\Change adapter settings\select Ethernet\enter the ethernet properties\select 'Internet Protocol Version 4'`
 
 > Dynamic IP (Auto)
 
-> `Control Panel\Network and Internet\Network and Sharing Center\Change adapter settings\select Ethernet\enter the ethernet properties\select 'Internet Protocol Version 4'`
+>> `Control Panel\Network and Internet\Network and Sharing Center\Change adapter settings\select Ethernet\enter the ethernet properties\select 'Internet Protocol Version 4'`
 
 LoopBack:
 ---------
@@ -284,37 +284,4 @@ LoopBack:
 * `ifconfig -s`
 
 * `ifconfig -a`
-
-#Port:
-------
-Two types of ports:
--------------------
-
-> TCP (Transfer control protocal)
-
-+ TCP is a connection-oriented protocol.
-
-+ TCP is comparatively slower than UDP.
-
-+ Lost data packets is only possible with TCP.
-
-+ TCP uses handshake protocols.
-
-> UDP (user datagram protocal)
-
-+ UDP is a connectionless protocol.
-
-+ UDP is faster, simpler, and efficient.
-
-+ Lost data packets is not possible with UDP.
-
-+ UDP uses no handshake protocols.
-
-Most commonl used ports:
-------------------------
-- `20 & 21:  File Transfer Protocol (FTP).`
-
-- `22: Secure Shell (SSH).`
-
-- `25: Simple Mail Transfer Protocol (SMTP).`
 
