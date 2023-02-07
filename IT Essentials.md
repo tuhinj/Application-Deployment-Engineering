@@ -182,7 +182,8 @@ IPv4:
 
 + Class E: (2^3)240-255 = Reserved
 
-**IP Address Type:**
+**IP Address Type:
+-----------------
 
 ***1. Private IP***
 
