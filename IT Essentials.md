@@ -1,18 +1,18 @@
 IT Essentials::
 ===============
-#1. Operating systems:
----------------------
+*Operating systems:*
+--------------------
 > An operating system is a type of system software that controls how software and hardware resources are used and offers basic services to other software applications.
 
 * 32 bit OS - 86 (x86)
 * 64 bit OS - x64 (x86_64)
 
-#2. Kernel:
-----------
+*Kernel:*
+---------
 > The kernel is a major part of an operating system that handles hardware and software activities.
 
-#3. Linux vs Windows:
---------------------
+*Linux vs Windows:*
+-------------------
 Linux:
 ------
 - Linux distribution is mostly free. Some are paid but at cheaper rates.
@@ -227,8 +227,8 @@ LoopBack:
  
 + IPv6: ping ::1
 
-#Essential Commands:
---------------------
+#Essential Commands(Network Utilities):
+---------------------------------------
 > ping - send ICMP ECHO_REQUEST to network hosts
 
 * `ping google.com`
@@ -284,5 +284,13 @@ LoopBack:
 * `ifconfig -s`
 
 * `ifconfig -a`
+
+> arp - manipulate the system Address Resulation Protocol(ARP) cache
+
+* `arp -a`
+
+* `arp -d <ip address>` (specific ARP entry Delete)
+
+
 
 
