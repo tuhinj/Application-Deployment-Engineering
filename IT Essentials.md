@@ -34,10 +34,12 @@ Linux:
 *Linux File System:*
 --------------------
 > ext3
+
 > ext4
+
 > XFS
 
-*Windows:*
+**Windows:**
 ----------
 - It paid only and at higher rates than Linux distributions.
 - Its size is quite large then Linux.
@@ -58,8 +60,8 @@ Linux:
 
 *Windows add user & Group:*
 ---------------------------
-> manual (add & delete user):
------------------------------
+***manual (add & delete user):***
+
 > `this pc > manage > System Tools > Local Users and Groups > User > Right button > new user`
 
 > `this pc > manage > System Tools > Local Users and Groups > User > select user click right button > delete `
