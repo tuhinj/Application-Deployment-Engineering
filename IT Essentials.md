@@ -66,8 +66,8 @@ Linux:
 
 > `this pc > manage > System Tools > Local Users and Groups > User > select user click right button > delete `
 
-> CMD (add & delete user):
---------------------------
+***CMD (add & delete user):***
+
 > `Search CMD > open CMD with Administrator > command 'net user username password /add'`
 
 > `Search CMD > open CMD with Administrator > command 'net user username /delete'`
