@@ -72,15 +72,14 @@ Linux:
 
 > `Search CMD > open CMD with Administrator > command 'net user username /delete'`
 
-> manual (add & delete Group):
------------------------------
+***manual (add & delete Group):***
+
 > `this pc > manage > System Tools > Local Users and Groups > Groups > select group click right button > new group > group name > add user in the group if you want`
 
 > `this pc > manage > System Tools > Local Users and Groups > Groups > select group click right button > delete `
 
 
-> CMD (add & delete Group):
---------------------------
+***CMD (add & delete Group):***
 > 
 
 **Operationg System Run:**
@@ -109,14 +108,14 @@ Linux:
 
 **Windows OS Installation Planning:**
 
-MBR Partition:
---------------
+***MBR Partition:***
+
 >> System Reserved - Reserved - 500MB
 
 >> C - NTFS/FAT32 - 30GB minimum
 
-GPT Partition:
---------------
+***GPT Partition:***
+
 >> Recovery Partition - Recovery - 450MB
 
 >> EFI - FAT - 100MB
@@ -127,8 +126,8 @@ GPT Partition:
 
 **Linux OS Installation Planning:**]
 
-MBR Partition:
--------------
+***MBR Partition:***
+
 >> /boot - XFS - 500MB
 
 >> / - XFS - 20GB minimum
@@ -137,8 +136,8 @@ MBR Partition:
 
 >> /backup - XFS - Required
 
-GPT Partition:
---------------
+***GPT Partition:***
+
 >> /boot/efi - FAT - 450MB
 
 >> / - XFS - 20GB
@@ -168,8 +167,8 @@ IPv4:
 
 >> Each Octet 8bits (2^8)/256/(0-255). Ex:(0-255).(0-255).(0-255).(0-255)
 
-> IPv4 Classes (5):
--------------------
+*IPv4 Classes (5):*
+
 - IP two part HOST and NETWORK
 
 * Class A: (2^7)0-127 = Large Network [N.H.H.H] = 2^8 (N).2^24 (H) = (256N).(1,67,77,216H)
@@ -183,9 +182,9 @@ IPv4:
 
 + Class E: (2^3)240-255 = Reserved
 
-> IP Address Type:
-------------------
-1. Private IP
+*IP Address Type:*
+
+***1. Private IP***
 
 - Free
 
@@ -193,13 +192,13 @@ IPv4:
 
 - Use in Private Network
 
-+ Range:
---------
+*Range*
+
 > class A: [10.0.0.0 - 10.255.255.255]
 > class B: [172.16.0.0 - 172.31.255.255]
 > class C: [192.168.0.0 - 192.168.255.255]
 
-2. Public IP
+***2. Public IP***
 
 - Rental/ Lease Basis(500tk/IP)
 
@@ -207,22 +206,22 @@ IPv4:
 
 - Globally Unique & Routable
 
-+ Range:
---------
+*Range:*
+
 > Without some reserved IP and private IP all IP are Public IP...!
 
-IP Address Configuration:
--------------------------
-> Static IP (Manual)
+**IP Address Configuration:**
+
+Static IP (Manual)
 
 >> `Control Panel\Network and Internet\Network and Sharing Center\Change adapter settings\select Ethernet\enter the ethernet properties\select 'Internet Protocol Version 4'`
 
-> Dynamic IP (Auto)
+Dynamic IP (Auto)
 
 >> `Control Panel\Network and Internet\Network and Sharing Center\Change adapter settings\select Ethernet\enter the ethernet properties\select 'Internet Protocol Version 4'`
 
-LoopBack:
----------
+***LoopBack:***
+
 > Pinging the local host confirms that TCP/IP is installed and working on the local host.
 
 + IPv4: ping 127.0.0.1
