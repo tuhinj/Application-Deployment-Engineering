@@ -1,6 +1,6 @@
 IT Essentials::
 ===============
-*Operating systems:*
+**Operating systems:**
 --------------------
 > An operating system is a type of system software that controls how software and hardware resources are used and offers basic services to other software applications.
 
@@ -11,7 +11,7 @@ IT Essentials::
 ---------
 > The kernel is a major part of an operating system that handles hardware and software activities.
 
-*Linux vs Windows:*
+**Linux vs Windows:**
 -------------------
 Linux:
 ------
@@ -24,39 +24,39 @@ Linux:
 - Open Source
 - Faster
 
-* Linux 4 types:
+*Linux 4 types:*
 ----------------
 1. Embedded (MINIX, Android, Tizen)
 2. Desktop (Ubuntu, Mint, etc.)
 3. Server (Red Hat, Debian, Oracal, CentOS, etc.)
 4. Super Computer (Red Hat, SUSE, Ubuntu, etc.)
 
-* Linux File System:
-----------------------
+*Linux File System:*
+--------------------
 > ext3
 > ext4
 > XFS
 
-Windows:
---------
+*Windows:*
+----------
 - It paid only and at higher rates than Linux distributions.
 - Its size is quite large then Linux.
 - It is not customizable.
 - It supports only the defined platforms.
 
-* Windows 3 types:
------------------
+*Windows 3 types:*
+------------------
 1. Server(2012/2019 server)
 2. Desktop(win10,win11)
 3. Embedded(Windows Mobile)
 
-* Windows File System:
+*Windows File System:*
 ----------------------
 > NTFS (Any size file supported)
 
 > FAT32 (Large size file not supported, encrypted not supported)
 
-* Windows add user & Group:
+*Windows add user & Group:*
 ---------------------------
 > manual (add & delete user):
 -----------------------------
@@ -81,40 +81,40 @@ Windows:
 --------------------------
 > 
 
-#Operationg System Run:
-----------------------
+**Operationg System Run:**
+--------------------------
 + Boot loader: "Complementary Metal Oxide Semiconductor(CMOS) it's program firmware, under the firmware two type of boot loader"
 
-1. BIOS (Basic Input Output System)
-------------------------------------
+*1. BIOS (Basic Input Output System)*
+
 >> `BIOS > MBR (Master Boot Record) > Boot loader > OS Kernel > GUI/CLI`
 
-2. UEFI (Unified Extensible Firmware Interface)
-------------------------------------------------
+*2. UEFI (Unified Extensible Firmware Interface)*
+
 >> `UEFI (EFI file system) > GPT (GUID Partition Table) / MBR (Master Boot Record) > Boot loader > OS Kernel > GUI/CLI`
 
-MBR vs. GPT:
-------------
-+ MBR (Master Boot Record):
----------------------------
+**MBR vs. GPT:**
+-----------------
+*MBR (Master Boot Record):*
+
 1. Primary Partitions (4)
 2. Maximum Partition size 2TB (2^32 x 512 bytes/sector)
 
-+ GPT (GUID Partition Table):
------------------------------
+*GPT (GUID Partition Table):*
+
 1. Primary Partitions (128)
 2. Maximum Partition size 9ZB (2^64 x 512 bytes/sector)
 
-Windows OS Installation Planning:
----------------------------------
-* MBR Partition:
----------------
+**Windows OS Installation Planning:**
+
+MBR Partition:
+--------------
 >> System Reserved - Reserved - 500MB
 
 >> C - NTFS/FAT32 - 30GB minimum
 
-* GPT Partition:
-----------------
+GPT Partition:
+--------------
 >> Recovery Partition - Recovery - 450MB
 
 >> EFI - FAT - 100MB
@@ -123,10 +123,10 @@ Windows OS Installation Planning:
 
 >> C - NTFS/FAT32 - 30GB minimum
 
-Linux OS Installation Planning:
--------------------------------
-* MBR Partition:
----------------
+**Linux OS Installation Planning:**]
+
+MBR Partition:
+-------------
 >> /boot - XFS - 500MB
 
 >> / - XFS - 20GB minimum
@@ -135,8 +135,8 @@ Linux OS Installation Planning:
 
 >> /backup - XFS - Required
 
-* GPT Partition:
-----------------
+GPT Partition:
+--------------
 >> /boot/efi - FAT - 450MB
 
 >> / - XFS - 20GB
@@ -145,8 +145,8 @@ Linux OS Installation Planning:
 
 >> /backup - XFS - Required
 
-#IP Addresses:
---------------
+**IP Addresses:**
+
 1. IPv4
 2. IPv6
 
@@ -227,8 +227,8 @@ LoopBack:
  
 + IPv6: ping ::1
 
-#Essential Commands(Network Utilities):
----------------------------------------
+**Essential Commands(Network Utilities):**
+
 > ping - send ICMP ECHO_REQUEST to network hosts
 
 * `ping google.com`
