@@ -231,59 +231,59 @@ LoopBack:
 --------------------
 > ping - send ICMP ECHO_REQUEST to network hosts
 
-`ping google.com`
+* `ping google.com`
 
-`ping 8.8.8.8`
+* `ping 8.8.8.8`
 
 > nslookup - query Internet name servers interactively
 
-`nslookup google.com`
+* `nslookup google.com`
 
-`nslookup 8.8.8.8`
+* `nslookup 8.8.8.8`
 
 > traceroute/tracert — trace the route to a host
 
-`tracert googel.com` (windows)
+* `tracert googel.com` (windows)
 
-`tracert 8.8.8.8` (windows)
+* `tracert 8.8.8.8` (windows)
 
-`traceroute google.com`
+* `traceroute google.com`
 
-`traceroute 8.8.8.8`
+* `traceroute 8.8.8.8`
 
 > ip - show / manipulate routing, network devices, interfaces and tunnels
 
-`ip a`
+* `ip a`
 
-`ip all` (windows)
+* `ip all` (windows)
 
 > dig - DNS lookup utility
  
-`dig google.com`
+* `dig google.com`
 
-`dig 8.8.8.8`
+* `dig 8.8.8.8`
 
 >  route - show / manipulate the IP routing table
 
-`route`
+* `route`
 
 > netstat/nestat  - Print network connections, routing tables, interface statis‐tics, masquerade connections, and multicast memberships
 
-`netstat -n` (windows)
+* `netstat -n` (windows)
 
-`netstat -ntlp` (linux)
+* `netstat -ntlp` (linux)
 
 > ifconfig/ipconfig - configure a network interface
 
-`ipconfig /renew` (windows)
+* `ipconfig /renew` (windows)
 
-`ifconfig`
+* `ifconfig`
 
-`ipconfig all` (windows)
+* `ipconfig all` (windows)
 
-`ifconfig -s`
+* `ifconfig -s`
 
-`ifconfig -a`
+* `ifconfig -a`
 
 #Port:
 ------
