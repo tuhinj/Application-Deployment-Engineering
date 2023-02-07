@@ -1,5 +1,16 @@
 Port:
 =====
+The port numbers are three ranges:
+----------------------------------
+
+>  There are 65,535 ports available.
+
+* Well-known ports: 0 - 1,023.
+
+* Registered ports: 1,024 - 49,151.
+
+* Dynamic and/or private ports: 49,152 - 65,535.
+
 Two types of ports:
 -------------------
 
@@ -23,7 +34,7 @@ Two types of ports:
 
 + UDP uses no handshake protocols.
 
-Most commonl used ports:
+Most commonly used ports:
 ------------------------
 - `7: Echo service`
 
