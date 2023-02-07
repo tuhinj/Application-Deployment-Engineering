@@ -290,7 +290,7 @@ LoopBack:
 Two types of ports:
 -------------------
 
-> TCP (transfar control protocal)
+> TCP (Transfer control protocal)
 
 + TCP is a connection-oriented protocol.
 
@@ -309,3 +309,12 @@ Two types of ports:
 + Lost data packets is not possible with UDP.
 
 + UDP uses no handshake protocols.
+
+Most commonl used ports:
+------------------------
+- `20 & 21:  File Transfer Protocol (FTP).`
+
+- `22: Secure Shell (SSH).`
+
+- `25: Simple Mail Transfer Protocol (SMTP).`
+
