@@ -1,9 +1,9 @@
-BASH/SHELL SCRIPT:
+**BASH/SHELL SCRIPT:**
 ===================
 -> A list of commands in a computer program called a shell script are executed by the command line interpreter known as the Unix/LINUX shell.
 
-=> The SheBang (#!):
-----------------
+***=> The SheBang (#!):***
+--------------------
 -> It's used to instruct the kernel on which interpreter to utilize when executing the commands in the file.
 -> `#!` = It's called a shebang because the 
 - `#` symbol is called a hash
@@ -12,7 +12,7 @@ BASH/SHELL SCRIPT:
 - `#!/bin/bash` it use in shell script text file.
 - script can exicute by (bash 'scriptName', sh 'scriptName', ./'scripName')
 
-Example 1:
+*Example 1:*
 ---------
 > $ nano hello.sh
 - open text exitor and paste the below lines
@@ -38,7 +38,7 @@ Example 1:
 + Hello World!
 + This is my first script...!
 
-=> Secound Script:
+***=> Secound Script:***
 ------------------
 > $ nano script1.sh
 
@@ -57,7 +57,7 @@ Example 1:
 + -rwxr-xr-x. 1 root root 94 Jan 17 13:58 hello.sh
 + -rwxr-xr-x. 1 root root 40 Jan 17 14:59 script1.sh
 
-=> Variable Assigning:
+***=> Variable Assigning:***
 ----------------------
 > $ nano script2.sh
 
@@ -78,7 +78,7 @@ Example 1:
 + Hello Tuhin Joy
 + Hello I'm Tuhin Joy and my age is 23
 
-Example 2:
+*Example 2:*
 ----------
 > $ nano script3.sh
 
@@ -96,7 +96,7 @@ Example 2:
 + Today date and time:  Tue 17 Jan 16:53:15 EST 2023
 + Show the list of file and directory:  hello.sh script1.sh script2.sh script3.sh
 
-Example 3:
+*Example 3:*
 ----------
 > $ nano script4.sh
 
@@ -116,7 +116,7 @@ Example 3:
 + A=30
 + B=30
 
-Example 4:
+*Example 4:*
 ----------
 > $ nano script5.sh
 
@@ -133,7 +133,7 @@ Example 4:
 + X=26
 + Y=26
 
-Example 5:
+*Example 5:*
 ----------
 > $ nano ex1_script.sh
 
@@ -154,7 +154,7 @@ Example 5:
 + Enter your age: 23
 + Hello TuhinJOy. You will be 50 years old in 2050
 
-Example 6:
+*Example 6:*
 ----------
 > $ nano ex2_script.sh
 
@@ -179,7 +179,7 @@ Example 6:
 + -rw-rw-r--. 1 whoami whoami 0 Jan 18 06:48 file03
 + /tmp/test00
 
-=> Conditional Statment (if..else):
+***=> Conditional Statment (if..else):***
 -----------------------------------
 * `-eq ((==)) = Equle`
 * `-ne ((!=))= not Equle`
@@ -189,7 +189,7 @@ Example 6:
 * `-o, || = or`
 
 
-Example 7:
+*Example 7:*
 ----------
 > $ cat if_else.sh 
 + #!/bin/bash
@@ -209,7 +209,7 @@ or
 > $ ./if_else.sh
 +  Hello There this is a true condition 
 
-Example 7:
+*Example 7:*
 ----------
 > $ cat if_else1.sh
 + #!/bin/bash
@@ -233,7 +233,7 @@ Example 7:
 > $ ./if_else1.sh
 +  This Condition is True...!!!The number is less then 5
 
-Example 8:
+*Example 8:*
 ----------
 > $ cat if_else2.sh 
 + #!/bin/bash
@@ -259,7 +259,7 @@ or
 > # ./if_else2.sh
 + It's Correct..!
 
-=> Loop in shell script:
+**=> Loop in shell script:**
 ------------------------
 -> The types of loops:
 
@@ -268,7 +268,7 @@ or
 * The until loop
 * The select loop
 
-While Loop:
+***While Loop:***
 -----------
 * `-eq ((==)) = Equle`
 * `-ne ((!=))= not Equle`
@@ -298,7 +298,7 @@ or
 + 3
 + 4
 
-For Loop:
+***For Loop:***
 ---------
 * `-eq ((==)) = Equle`
 * `-ne ((!=))= not Equle`
@@ -323,7 +323,7 @@ For Loop:
 + 4
 + 5
 
-Example 9:
+*Example 9:*
 ----------
 > $ cat for_loop1.sh
 + #!/bin/bash
@@ -341,7 +341,7 @@ Example 9:
 + .
 + 100
 
-Example 10:
+*Example 10:*
 -----------
 > $ cat for_loop2.sh 
 + #!/bin/bash
@@ -366,7 +366,7 @@ Example 10:
 + 20
 + {start..ending..increment}
 
-Example 11:
+*Example 11:*
 -----------
 > $ cat for_loop3.sh
 + #!/bin/bash
@@ -389,7 +389,7 @@ Example 11:
 + 8
 + 9
 
-Script Input:
+**Script Input:**
 -------------
 > $ cat input2.sh 
  
@@ -404,9 +404,14 @@ Script Input:
 + Maynuddin Tuhin Joy
 + 3
 
-Script Output:
+**Script Output:**
 --------------
-> $ 
+> $ cat output1.sh
+
++ #!/bin/bash
++ ls -al 1>fiel1.txt 2>file2.txt
+
+
 
 
 

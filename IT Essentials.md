@@ -13,7 +13,7 @@ IT Essentials::
 
 **Linux vs Windows:**
 -------------------
-Linux:
+**Linux:**
 ------
 - Linux distribution is mostly free. Some are paid but at cheaper rates.
 - Linux size is small compared to windows.
@@ -182,8 +182,8 @@ IPv4:
 
 + Class E: (2^3)240-255 = Reserved
 
-**IP Address Type:
------------------
+IP Address Type:
+---------------
 
 ***1. Private IP***
 
