@@ -131,7 +131,7 @@
 - kill -9 <code>
 
 ***-> nice  -  run  a program with modified scheduling priority***
-	
+
 - nice -19 <code>
 
 ***-> df - report file system disk space usage***
@@ -152,25 +152,24 @@
 
 - top
 
-
 **Text Editores:**
 ==============
 ***-> nano - Nano's ANOther editor, inspired by Pico***
-	
+
 - nano file.txt
-	
+
 ***-> vim - Vi IMproved, a programmer's text editor***
-	
+
 - vi/vim file.txt (type - i, save+exit = wq, quite = q!)
 
 **Networking:**
 ===========
 ***-> ifconfig - configure a network interface***
-	
+
 - ifconfig
-	
+
 ***-> apt - command-line interface***
-	
+
 - apt update && apt uprade
 
 
