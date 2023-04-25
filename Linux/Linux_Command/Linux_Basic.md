@@ -132,7 +132,7 @@
 
 ***-> nice  -  run  a program with modified scheduling priority***
 
-- nice -19 <code>
+- nice -19 'code'
 
 ***-> df - report file system disk space usage***
 
