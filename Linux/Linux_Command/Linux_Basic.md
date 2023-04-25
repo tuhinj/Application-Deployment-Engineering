@@ -1,40 +1,40 @@
-Working with Directories:
+#Working with Directories:
 =========================
--> man - an interface to the system reference manuals
+**-> man - an interface to the system reference manuals**
 
-# man ls/pwd/mkdir
+- man ls/pwd/mkdir
 
--> pwd - print name of current/working directory
+**-> pwd - print name of current/working directory**
 
-# pwd
+- pwd
 
--> ls - list directory contents
+**-> ls - list directory contents**
 
-# ls
+- ls
 
-# ls -l (long list with permission)
+- ls -l (long list with permission)
 
-# ls -a (all file/dir)
+- ls -a (all file/dir)
 
-# ls -la (all file/dir with permission list)
+- ls -la (all file/dir with permission list)
 
-# ls -lah (all file/dir with permission list with size)	
+- ls -lah (all file/dir with permission list with size)	
 
--> cd - cd use for enter any directory
+**-> cd - cd use for enter any directory**
 
-cd - cd /home/user
+- cd - cd /home/user
 
-cd - cd / (root folder)
+- cd - cd / (root folder)
 
--> mkdir - make directories
+**-> mkdir - make directories**
 
-# mkdir folder
+- mkdir folder
 
--> rmdir - remove empty directories
+**-> rmdir - remove empty directories**
 
-# rmdir folder
+- rmdir folder
 
-# rmdir folder/folder2
+- rmdir folder/folder2
 
 Working With File:
 ==================
