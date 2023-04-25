@@ -128,7 +128,7 @@
 
 - kill -l
 
-- kill -9 <code>
+- kill -9 'code'
 
 ***-> nice  -  run  a program with modified scheduling priority***
 
