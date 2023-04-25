@@ -1,14 +1,14 @@
-#Working with Directories:
+**Working with Directories:**
 =========================
-**-> man - an interface to the system reference manuals**
+***-> man - an interface to the system reference manuals***
 
 - man ls/pwd/mkdir
 
-**-> pwd - print name of current/working directory**
+***-> pwd - print name of current/working directory***
 
 - pwd
 
-**-> ls - list directory contents**
+***-> ls - list directory contents***
 
 - ls
 
@@ -20,160 +20,158 @@
 
 - ls -lah (all file/dir with permission list with size)	
 
-**-> cd - cd use for enter any directory**
+***-> cd - cd use for enter any directory***
 
 - cd - cd /home/user
 
 - cd - cd / (root folder)
 
-**-> mkdir - make directories**
+***-> mkdir - make directories***
 
 - mkdir folder
 
-**-> rmdir - remove empty directories**
+***-> rmdir - remove empty directories***
 
 - rmdir folder
 
 - rmdir folder/folder2
 
-Working With File:
+**Working With File:**
 ==================
--> file — determine file type
+***-> file — determine file type***
 
-# file text.txt
+- file text.txt
 
--> touch - change file timestamps
+***-> touch - change file timestamps***
 
-# touch file.txt
+- touch file.txt
 
--> rm - remove files or directories
+***-> rm - remove files or directories***
 
-# rm file.txt
+- rm file.txt
 
-# rm -i file1.txt file2.txt
+- rm -i file1.txt file2.txt
 
-# rm -rf Folder/
+- rm -rf Folder/
 
-# rm *.txt
+- rm *.txt
 
-# rm -r Folder/
+- rm -r Folder/
 
--> cp - copy files and directories
+***-> cp - copy files and directories***
 
-# cp file.txt
+- cp file.txt
 
-# cp Folder/ Foldercopy/
+- cp Folder/ Foldercopy/
 
--> mv - move (rename) files
+***-> mv - move (rename) files***
 
-# mv file1.txt file2.txt
+- mv file1.txt file2.txt
 
-# mv file1.txt /home/user/Documents
+- mv file1.txt /home/user/Documents
 
-# cp Folder/ Foldercopy/
+- cp Folder/ Foldercopy/
 
--> head - output the first part of files
+***-> head - output the first part of files***
 
-# head text.txt
+- head text.txt
 
-# head -5 text.txt
+- head -5 text.txt
 
--> tail - output the last part of files
+***-> tail - output the last part of files***
 
-# tail text.txt
+- tail text.txt
 
-# tail -5 text.txt
+- tail -5 text.txt
 
--> cat - concatenate files and print on the standard output
+***-> cat - concatenate files and print on the standard output***
 
-# cat file.txt
+- cat file.txt
 
-# cat > file.txt
+- cat > file.txt
 
--> echo - display a line of text
+***-> echo - display a line of text***
 
-# echo hello world!
+- echo hello world!
 
-# echo this is the file one > f1.txt 
+- echo this is the file one > f1.txt 
 
--> more - file perusal filter for crt viewing
+***-> more - file perusal filter for crt viewing***
 
-# more file.txt
+- more file.txt
 
--> grep,  egrep,  fgrep,  rgrep  -  print  lines  that  match
+***-> grep,  egrep,  fgrep,  rgrep  -  print  lines  that  match patterns***
 
-patterns
+- grep p pip.txt
 
-#grep p pip.txt
-
-System Informaon:
+**System Informaon:**
 =================
--> uptime - Tell how long the system has been running.
+***-> uptime - Tell how long the system has been running.***
 
-# uptime
+- uptime
 
--> free - Display amount of free and used memory in the system
+***-> free - Display amount of free and used memory in the system***
 
-# free
+- free
 
--> ps - report a snapshot of the current processes.
+***-> ps - report a snapshot of the current processes.***
 
-# ps -A
+- ps -A
 
-# ps aux
+- ps aux
 
-# ps -f
+- ps -f
 
-# ps -u user
+- ps -u user
 
--> kill - send a signal to a process
+***-> kill - send a signal to a process***
 
-# kill -l
+- kill -l
 
-# kill -9 <code>
+- kill -9 <code>
 
--> nice  -  run  a program with modified scheduling priority
+***-> nice  -  run  a program with modified scheduling priority***
 	
-# nice -19 <code>
+- nice -19 <code>
 
--> df - report file system disk space usage
+***-> df - report file system disk space usage***
 
-# df
+- df
 
-# df -h
+- df -h
 
--> fdisk - manipulate disk partition table
+***-> fdisk - manipulate disk partition table***
 
-# fdisk -l
+- fdisk -l
 
--> lsblk - list block devices
+***-> lsblk - list block devices***
 
-# lsblk
+- lsblk
 
--> top - display Linux processes
+***-> top - display Linux processes***
 
-# top
+- top
 
 
-Text Editores:
+**Text Editores:**
 ==============
--> nano - Nano's ANOther editor, inspired by Pico
+***-> nano - Nano's ANOther editor, inspired by Pico***
 	
-	# nano file.txt
+- nano file.txt
 	
--> vim - Vi IMproved, a programmer's text editor
+***-> vim - Vi IMproved, a programmer's text editor***
 	
-	# vi/vim file.txt (type - i, save+exit = wq, quite = q!)
+- vi/vim file.txt (type - i, save+exit = wq, quite = q!)
 
-Networking:
+**Networking:**
 ===========
--> ifconfig - configure a network interface
+***-> ifconfig - configure a network interface***
 	
-	# ifconfig
+- ifconfig
 	
--> apt - command-line interface
+***-> apt - command-line interface***
 	
-	# apt update && apt uprade
+- apt update && apt uprade
 
 
 
