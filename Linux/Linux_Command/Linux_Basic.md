@@ -26,6 +26,8 @@
 
 - cd - cd / (root folder)
 
+- cd .. (back dir)
+
 ***-> mkdir - make directories***
 
 - mkdir folder
