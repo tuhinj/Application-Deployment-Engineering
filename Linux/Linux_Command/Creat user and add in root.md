@@ -1,4 +1,4 @@
-CentOS Add user & user add in root
+#CentOS Add user & user add in root
 
 ***1. Adding a user to the Sudoers file:***
 - sudo nano /etc/sudoers
