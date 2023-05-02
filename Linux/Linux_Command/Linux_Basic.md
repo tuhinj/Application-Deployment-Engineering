@@ -102,9 +102,13 @@
 
 - more file.txt
 
-***-> grep,  egrep,  fgrep,  rgrep  -  print  lines  that  match patterns***
+***->diff, grep,  egrep,  fgrep,  rgrep  -  print  lines  that  match patterns***
+
+- diff pip.txt p.txt
 
 - grep p pip.txt
+
+- cat pip.txt | grep (a,^a,-E a\(3))
 
 **System Informaon:**
 =================
@@ -179,4 +183,11 @@
 ***-> passwd - Change password current user***
 
 - passwd
+
+**Saving Command line result in text file**
+===========================================
+- ls > demo.txt
+
+- pwd >> demo.txt
+
 
