@@ -20,6 +20,11 @@
 
 - ls -lah (all file/dir with permission list with size)	
 
+- ls b*
+
+- ls ??
+
+- ls [a-b]*
 ***-> cd - cd use for enter any directory***
 
 - cd - cd /home/user
