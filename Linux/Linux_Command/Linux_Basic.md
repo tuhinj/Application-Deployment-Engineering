@@ -174,5 +174,9 @@
 
 - apt update && apt uprade
 
+**Password:**
+=============
+***-> passwd - Change password current user***
 
+- passwd
 
