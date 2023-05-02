@@ -17,4 +17,4 @@ CentOS Add user & user add in root
 ----------------------------------------------------------------------
 ***4. Remove User***
 
-- sudo userdlt username
+- sudo userdel username

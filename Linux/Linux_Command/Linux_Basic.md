@@ -37,7 +37,7 @@
 - rmdir folder
 
 - rmdir folder/folder2
-
+-----------------------------------------
 **Working With File:**
 ==================
 ***-> file — determine file type***
@@ -109,7 +109,7 @@
 - grep p pip.txt
 
 - cat pip.txt | grep (a,^a,-E a\(3))
-
+----------------------------------------
 **System Informaon:**
 =================
 ***-> uptime - Tell how long the system has been running.***
@@ -157,7 +157,7 @@
 ***-> top - display Linux processes***
 
 - top
-
+---------------------------------------------
 **Text Editores:**
 ==============
 ***-> nano - Nano's ANOther editor, inspired by Pico***
@@ -167,7 +167,7 @@
 ***-> vim - Vi IMproved, a programmer's text editor***
 
 - vi/vim file.txt (type - i, save+exit = wq, quite = q!)
-
+------------------------------------------------------------
 **Networking:**
 ===========
 ***-> ifconfig - configure a network interface***
@@ -177,17 +177,25 @@
 ***-> apt - command-line interface***
 
 - apt update && apt uprade
-
+-----------------------------------------
 **Password:**
 =============
 ***-> passwd - Change password current user***
 
 - passwd
-
+------------------------------------------------
 **Saving Command line result in text file**
 ===========================================
 - ls > demo.txt
 
 - pwd >> demo.txt
+---------------------------------------------
+**File & Dir Gzip Gunzip, sort, uniq**
+========================
+- gzip filename
 
+- gunzip filename
 
+- sort filename
+
+- sort file name | uniq
