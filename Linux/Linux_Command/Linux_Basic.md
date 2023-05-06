@@ -204,3 +204,13 @@
 - sort filename
 
 - sort file name | uniq
+
+**Karnal Information**
+=======================
+- neofetch
+
+- uname 
+
+- uname -mrs
+
+- nvidia-smi
