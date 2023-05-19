@@ -1,4 +1,4 @@
-CentOS Add user & user add in root
+CentOS & Ubuntu Add user & user add in root
 ==================================
 
 ***1. Adding a user to the Sudoers file:***
@@ -13,7 +13,9 @@ CentOS Add user & user add in root
 ---------------------------------------------------
 ***3. Now add the user in the “wheel” Group by running the command:***
 
-- sudo usermod -aG wheel username
+- sudo usermod -aG wheel username //CentOS
+
+- sudo usermod -aG sudo username //Ubuntu 
 ----------------------------------------------------------------------
 ***4. Remove User***
 
